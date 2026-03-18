@@ -77,9 +77,3 @@ Main/
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-Built with the <a href="https://github.com/ondyari/FaceForensics">FaceForensics++</a> dataset and the <a href="https://arxiv.org/abs/1610.02357">Xception</a> architecture.
-</div>
