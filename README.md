@@ -8,7 +8,7 @@
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
-[Web App]([https://vidguard-435925497959.us-central1.run.app](https://vidguard-frontend-435925497959.us-central1.run.app)) · [Install Extension](#-chrome-extension) · [API Docs](#-api-reference)
+[Web App]([[https://vidguard-435925497959.us-central1.run.app](https://vidguard-frontend-435925497959.us-central1.run.app)](https://vidguard-frontend-435925497959.us-central1.run.app)) · [Install Extension](#-chrome-extension) · [API Docs](#-api-reference)
 
 </div>
 
@@ -17,24 +17,6 @@
 ## Overview
 
 VidGuard is a full-stack deepfake detection system. It can analyse both full videos and individual frames, and ships with a Chrome extension that lets you scan short-form videos directly from your browser toolbar while browsing TikTok, YouTube Shorts, or Instagram Reels.
-
-```
-User clicks Scan in the Chrome popup
-        │
-        ▼
-content.js captures the current video frame via Canvas
-        │
-        ▼
-background.js POSTs the JPEG to Flask /api/predict-image
-        │
-        ▼
-helper.py  →  OpenCV face detection  →  Xception inference
-        │
-        ▼
-Verdict (REAL / FAKE) + confidence % shown in the popup
-```
-
----
 
 ## Repository structure
 
