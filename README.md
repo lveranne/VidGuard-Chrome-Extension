@@ -7,7 +7,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=flat&logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/)
 
-[Visit Our Web App](#https://vidguard-435925497959.us-central1.run.app) · [API Docs](#-api-reference)
+[Visit Our Web App]
+https://vidguard-435925497959.us-central1.run.app
 
 </div>
 
